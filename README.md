@@ -32,6 +32,20 @@ Se vi bloccate su una query, non perdeteci troppo tempo, andate avanti alle succ
 
 <hr>
 
+<b>GROUP BY</b><br><br>
+
+- <i>Contare quanti iscritti ci sono stati ogni anno</i><br>
+
+- <i>Contare gli insegnanti che hanno l'ufficio nello stesso edificio</i><br>
+
+- <i>Calcolare la media dei voti di ogni appello d'esame</i><br>
+
+- <i>Contare quanti corsi di laurea ci sono per ogni dipartimento</i><br>
+
+<hr>
+
+<b>SELECT</b><br><br>
+
 - <i>Selezionare tutti gli studenti nati nel 1990 (160)</i><br>
 
 - <i>Selezionare tutti i corsi che valgono più di 10 crediti (479)</i><br>
