@@ -18,3 +18,34 @@ Modellizzare la struttura di un database per memorizzare tutti i dati riguardant
 
 Utilizzare https://www.drawio.com/ per la creazione dello schema.<br>
 Esportare quindi il diagramma in jpg e caricarlo nella repo.
+
+<hr>
+
+<h2 align="center">Db University II</h2>
+
+<b>Esercizio:</b><br>
+Dopo aver creato un nuovo database nel vostro MySQL Workbench e aver importato lo schema allegato, eseguite le query del file allegato.<br>
+<i>Cosa consegnare?</i><br>
+Dopo aver testato le vostre query con MySQL Workbench, riportatele in un file txt e caricatelo nella vostra repo. (E' la stessa di venerdì)<br>
+<i>Consigli</i><br>
+Se vi bloccate su una query, non perdeteci troppo tempo, andate avanti alle successive. Per alcune sarà necessario fare un minimo di ricerca nella documentazione.<br>
+
+<hr>
+
+- <i>Selezionare tutti gli studenti nati nel 1990 (160)</i><br>
+
+- <i>Selezionare tutti i corsi che valgono più di 10 crediti (479)</i><br>
+
+- <i>Selezionare tutti gli studenti che hanno più di 30 anni</i><br>
+
+- <i>Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di
+laurea (286)</i><br>
+
+- <i>Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del
+20/06/2020 (21)</i><br>
+
+- <i>Selezionare tutti i corsi di laurea magistrale (38)</i><br>
+
+- <i>Da quanti dipartimenti è composta l'università? (12)</i><br>
+
+- <i>Quanti sono gli insegnanti che non hanno un numero di telefono? (50)</i><br>
