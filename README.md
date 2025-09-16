@@ -45,6 +45,7 @@ SELECT COUNT(*) AS `numero_insegnanti`, `office_address` FROM `teachers` GROUP B
 SELECT AVG(`vote`) AS `media_voti`, `exam_id` FROM 'exam_student` GROUP BY `exam_id`
 
 - <i>Contare quanti corsi di laurea ci sono per ogni dipartimento</i><br>
+SELECT COUNT(*) AS `num_courses`, `department_id` FROM `degrees` GOURP BY `department_id`
 
 
 <hr>
