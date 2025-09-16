@@ -59,7 +59,7 @@ SELECT COUNT(*) AS `num_courses`, `department_id` FROM `degrees` GOURP BY `depar
 SELECT * FROM `courses` WHERE `cfu` > 10
 
 - <i>Selezionare tutti gli studenti che hanno più di 30 anni</i><br>
-
+SELECT * FROM `students` WHERE TIMESTAMP DIFF(YEAR, `date_of_birth`, CURDATE()) > 30
 
 - <i>Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di
 laurea (286)</i><br>
