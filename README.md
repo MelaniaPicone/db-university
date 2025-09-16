@@ -73,8 +73,7 @@ SELECT * FROM `exams` WHERE `date` = `2020-06-20` AND HOUR(`hour`) >= 14
 SELECT * FROM `degrees` WHERE `level` = `magistrale`
 
 - <i>Da quanti dipartimenti è composta l'università? (12)</i><br>
-
+SELECT COUNT(*) FROM `departments`
 
 - <i>Quanti sono gli insegnanti che non hanno un numero di telefono? (50)</i><br>
-
 
