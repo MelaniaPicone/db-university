@@ -42,7 +42,7 @@ SELECT COUNT(*) AS `numbero_iscritti`, YEAR (`enrolment_date`) AS `year` FROM `s
 SELECT COUNT(*) AS `numero_insegnanti`, `office_address` FROM `teachers` GROUP BY `office_address`
 
 - <i>Calcolare la media dei voti di ogni appello d'esame</i><br>
-
+SELECT AVG(`vote`) AS `media_voti`, `exam_id` FROM 'exam_student` GROUP BY `exam_id`
 
 - <i>Contare quanti corsi di laurea ci sono per ogni dipartimento</i><br>
 
