@@ -67,7 +67,7 @@ SELECT * FROM `courses` WHERE `year` = 1 AND `period` = `I semestre`
 
 - <i>Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del
 20/06/2020 (21)</i><br>
-
+SELECT * FROM `exams` WHERE `date` = `2020-06-20` AND HOUR(`hour`) >= 14
 
 - <i>Selezionare tutti i corsi di laurea magistrale (38)</i><br>
 
