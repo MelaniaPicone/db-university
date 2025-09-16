@@ -56,6 +56,7 @@ SELECT COUNT(*) AS `num_courses`, `department_id` FROM `degrees` GOURP BY `depar
 ?
 
 - <i>Selezionare tutti i corsi che valgono più di 10 crediti (479)</i><br>
+SELECT * FROM `courses` WHERE `cfu` > 10
 
 - <i>Selezionare tutti gli studenti che hanno più di 30 anni</i><br>
 
