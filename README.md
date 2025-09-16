@@ -70,7 +70,7 @@ SELECT * FROM `courses` WHERE `year` = 1 AND `period` = `I semestre`
 SELECT * FROM `exams` WHERE `date` = `2020-06-20` AND HOUR(`hour`) >= 14
 
 - <i>Selezionare tutti i corsi di laurea magistrale (38)</i><br>
-
+SELECT * FROM `degrees` WHERE `level` = `magistrale`
 
 - <i>Da quanti dipartimenti è composta l'università? (12)</i><br>
 
