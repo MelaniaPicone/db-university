@@ -35,31 +35,44 @@ Se vi bloccate su una query, non perdeteci troppo tempo, andate avanti alle succ
 <b>GROUP BY</b><br><br>
 
 - <i>Contare quanti iscritti ci sono stati ogni anno</i><br>
+SELECT COUNT(*) AS `numbero_iscritti`, YEAR (`enrolment_date`) AS `year` FROM `students` GROUP BY `year`
+
 
 - <i>Contare gli insegnanti che hanno l'ufficio nello stesso edificio</i><br>
 
+
 - <i>Calcolare la media dei voti di ogni appello d'esame</i><br>
 
+
 - <i>Contare quanti corsi di laurea ci sono per ogni dipartimento</i><br>
+
 
 <hr>
 
 <b>SELECT</b><br><br>
 
 - <i>Selezionare tutti gli studenti nati nel 1990 (160)</i><br>
+?
 
 - <i>Selezionare tutti i corsi che valgono più di 10 crediti (479)</i><br>
 
 - <i>Selezionare tutti gli studenti che hanno più di 30 anni</i><br>
 
+
 - <i>Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di
 laurea (286)</i><br>
+
 
 - <i>Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del
 20/06/2020 (21)</i><br>
 
+
 - <i>Selezionare tutti i corsi di laurea magistrale (38)</i><br>
+
 
 - <i>Da quanti dipartimenti è composta l'università? (12)</i><br>
 
+
 - <i>Quanti sono gli insegnanti che non hanno un numero di telefono? (50)</i><br>
+
+
