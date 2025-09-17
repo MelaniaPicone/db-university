@@ -94,19 +94,21 @@ SELECT `students`.* FROM `students` JOIN `degrees` ON `degrees`.`id` = `students
 - <i>Selezionare tutti i Corsi di Laurea Magistrale del Dipartimento di
 Neuroscienze</i><br>
 
-SELECT `degrees`.`name` FROM `degrees` JOIN `departments` ON `departments`.`id` = `degrees`.`department_id` WHERE `departments`.`name`= "Dipartimento di Neuroscienze" AND `degrees`.`level` = "magristrale"
+SELECT `degrees`.`name` FROM `degrees` JOIN `departments` ON `departments`.`id` = `degrees`.`department_id` WHERE `departments`.`name`= "Dipartimento di Neuroscienze" AND `degrees`.`level` = "magristrale"<br>
 
 - <i>Selezionare tutti i corsi in cui insegna Fulvio Amato (id=44)</i><br>
 
-SELECT  `courses`.* FROM `courses` JOIN `course_teacher` ON `course_teacher`.`course_id` = `courses`.`id` WHERE `course_teacher`.`teacher_id` = 44
+SELECT  `courses`.* FROM `courses` JOIN `course_teacher` ON `course_teacher`.`course_id` = `courses`.`id` WHERE `course_teacher`.`teacher_id` = 44<br>
 
 - <i>Selezionare tutti gli studenti con i dati relativi al corso di laurea a cui
 sono iscritti e il relativo dipartimento, in ordine alfabetico per cognome e
 nome</i><br>
 
-SELECT `students`. `surname`, `students`.`name`, `students`.`enrolment_date`, `students`.`registration_number`, `degrees`.`name` AS `degree_name`, FROM `students` JOIN `degrees` ON `degrees`.`id` = `students`.`degree_id` JOIN `departments` ON `departments`.`id` = `degrees`.`department_id`
+SELECT `students`. `surname`, `students`.`name`, `students`.`enrolment_date`, `students`.`registration_number`, `degrees`.`name` AS `degree_name`, FROM `students` JOIN `degrees` ON `degrees`.`id` = `students`.`degree_id` JOIN `departments` ON `departments`.`id` = `degrees`.`department_id`<br>
 
 - <i>Selezionare tutti i corsi di laurea con i relativi corsi e insegnanti</i><br>
+
+SELECT `degrees`.`name` AS `degree_name`, `courses`.`name` AS `course_name`, `courses`.`period`, `courses`.`year`, `courses`.`cfu`, `teachers`.`name`, `teachers`.`surname` FROM `degrees` JOIN `courses` ON `courses`.`degree_id` = `degrees`.`id` JOIN `course_teacher` ON `course_teacher`.`course_id` = `courses`.`id` JOIN `teachers` ON `teachers`.`id` = `course_teacher`.`teacher_id`
 
 - <i> Selezionare tutti i docenti che insegnano nel Dipartimento di
 Matematica (54)</i><br>
