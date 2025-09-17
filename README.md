@@ -77,3 +77,28 @@ SELECT COUNT(*) FROM `departments`
 
 - <i>Quanti sono gli insegnanti che non hanno un numero di telefono? (50)</i><br>
 SELECT COUNT(*) AS `num_teachers` FROM `teachers` WHERE `phone` IS NULL
+
+<hr>
+
+<h2 align="center">Db University III</h2>
+
+<b>Esercizio</b><br>
+Utilizzando lo stesso database di ieri, eseguite le query in allegato.<br><br>
+
+<b>Join</b><br>
+
+- <i>Selezionare tutti gli studenti iscritti al Corso di Laurea in Economia</i><br>
+
+- <i>Selezionare tutti i Corsi di Laurea Magistrale del Dipartimento di
+Neuroscienze</i><br>
+
+- <i>Selezionare tutti i corsi in cui insegna Fulvio Amato (id=44)</i><br>
+
+- <i>Selezionare tutti gli studenti con i dati relativi al corso di laurea a cui
+sono iscritti e il relativo dipartimento, in ordine alfabetico per cognome e
+nome</i><br>
+
+- <i>Selezionare tutti i corsi di laurea con i relativi corsi e insegnanti</i><br>
+
+- <i> Selezionare tutti i docenti che insegnano nel Dipartimento di
+Matematica (54)</i><br>
